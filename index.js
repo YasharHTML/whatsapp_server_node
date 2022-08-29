@@ -1,4 +1,5 @@
 const http = require("http");
+require("dotenv").config()
 const expressApp = require("./app/app");
 const PORT = process.env.PORT || 3000;
 

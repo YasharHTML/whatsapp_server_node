@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "*.dot": "vue",
+        "*.js": "javascript",
+        "xutility": "cpp"
+    }
+}

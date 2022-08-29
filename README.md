@@ -1,3 +1,6 @@
+# index.js code;
+```javascript
+
 const http = require("http");
 const expressApp = require("./app/app");
 const PORT = process.env.PORT || 3000;
@@ -16,3 +19,11 @@ io.on("connection", (socket) => {
 server.listen(PORT, () => {
     console.log(`Running on ${PORT}`);
 });
+
+```
+# How to run 
+
+```javascript
+
+npm run local:debug:start
+```

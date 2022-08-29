@@ -14,6 +14,11 @@ db.prepare(
     );`
 ).run();
 
+for (let i = 1; i < 13; i++) {
+    db.prepare(
+        `UPDATE users SET avatar=? WHERE id=?`
+    ).run(`${i}-image.jpg`, i);
+}
 
 getRouter
     .get("/", (req, res) => {
